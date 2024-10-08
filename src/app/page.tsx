@@ -1,7 +1,8 @@
 import { ReactFlowProvider } from "@xyflow/react";
 
-import { DnDProvider } from "@/app/contexts/DnDContext";
 import { Toaster } from "@/components/ui/toaster";
+
+import { DnDProvider } from "@/app/contexts/DnDContext";
 
 import AutomationBuilder from "@/app/components/AutomationBuilder";
 

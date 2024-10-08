@@ -18,8 +18,6 @@ import {
 
 import { v4 as uuidv4 } from "uuid";
 
-import "@xyflow/react/dist/style.css";
-import "./styles.css";
 
 import { getNodesAndEdges } from "@/lib/apiService";
 
@@ -28,6 +26,9 @@ import { useDnD } from "@/app/contexts/DnDContext";
 import Sidebar from "@/app/components/Sidebar";
 import EmailNode from "@/app/components/nodes/EmailNode";
 import ModalDialog from "@/app/components/common/ModalDialog";
+
+import "@xyflow/react/dist/style.css";
+import "./styles.css";
 
 // Function to generate a unique ID for nodes
 const getId = () => `dndnode_${uuidv4()}`;

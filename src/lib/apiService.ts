@@ -18,7 +18,6 @@ export const getNodesAndEdges = async () => {
 };
 
 export const saveNodesorEdges = async (data: Node) => {
-  console.log(data);
   try {
     // Validating the schema
     nodeSchema.parse(data);

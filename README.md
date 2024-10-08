@@ -32,7 +32,7 @@ To clone the repository, use the following command:
 git clone https://github.com/ravindrap52/automation-builder.git
 ```
 ### Installation
-To install the dependencies by running, use the following command:
+To install the dependencies, use the following command:
 ```bash
 cd automation-builder
 npm install
@@ -43,6 +43,12 @@ To start the development server, run:
 npm run dev
 ```
 #### open Broswer and navigate to http://localhost:3000.
+
+### Running the Tests
+To run the tests, run:
+```bash
+npm run test
+```
 
 ### Building for Production
 To build the project for production, use:

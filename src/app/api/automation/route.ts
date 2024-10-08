@@ -34,8 +34,8 @@ export async function PUT(request: NextRequest): Promise<Response> {
 
 export async function POST(request: NextRequest) {
 try {
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     const { nodes, edges }: ApiResponse = await request.json();
-    console.log(nodes, edges);
     return Response.json({ success: true, message: "Node updated successfully" }, { status: 200 });
   } catch (error) {
     console.error("Error", error);

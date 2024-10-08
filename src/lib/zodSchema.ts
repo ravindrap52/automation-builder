@@ -4,9 +4,9 @@ import { z } from "zod";
 export const nodeFormSchema = z.object({
   nodeName: z
     .string()
-    .regex(/\S/, { message: "Node name cannot be just spaces" })
-    .min(1, {
-      message: "Node name is required",
+    .min(1, { message: "Node name is required" })
+    .refine((value) => value.trim().length > 0, {
+      message: "Node name cannot be just spaces",
     }),
 });
 

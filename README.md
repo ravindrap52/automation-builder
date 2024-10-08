@@ -24,6 +24,8 @@ I used Zod for validations.
 3. **UI Enhancements**
    Making the UI more attractive by using different colors and animations.
 
+## Project Setup
+
 ### Cloning the Repository
 To clone the repository, use the following command:
 ```bash
